@@ -1,0 +1,15 @@
+goos: linux
+goarch: amd64
+pkg: golang.design/x/bench/example
+BenchmarkDemo-16    	  213145	      5625 ns/op
+BenchmarkDemo-16    	  211988	      5629 ns/op
+BenchmarkDemo-16    	  211838	      5629 ns/op
+BenchmarkDemo-16    	  212151	      5627 ns/op
+BenchmarkDemo-16    	  212577	      5627 ns/op
+BenchmarkDemo-16    	  210150	      5635 ns/op
+BenchmarkDemo-16    	  212650	      5637 ns/op
+BenchmarkDemo-16    	  210063	      5670 ns/op
+BenchmarkDemo-16    	  212568	      5665 ns/op
+BenchmarkDemo-16    	  212959	      5632 ns/op
+PASS
+ok  	golang.design/x/bench/example	12.536s

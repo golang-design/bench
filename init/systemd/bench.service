@@ -1,0 +1,10 @@
+[Unit]
+Description=Bench daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bench -daemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
