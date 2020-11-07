@@ -1,5 +1,7 @@
 package lock
 
+// +build !darwin
+
 import (
 	"fmt"
 	"net"
