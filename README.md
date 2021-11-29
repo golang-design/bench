@@ -3,7 +3,7 @@
 Reliable performance measurement for Go programs. All in one design.
 
 ```
-$ go install golang.design/x/bench
+$ go install golang.design/x/bench@latest
 ```
 
 ## Features
