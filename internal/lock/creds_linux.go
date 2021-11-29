@@ -1,6 +1,7 @@
-package lock
+//go:build linux
+// +build linux
 
-// +build !darwin
+package lock
 
 import (
 	"fmt"
