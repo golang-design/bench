@@ -1,10 +1,11 @@
+//go:build darwin
+// +build darwin
+
 package lock
 
 import (
 	"log"
 )
-
-// +build darwin
 
 // RunDaemon runs lock daemon
 func RunDaemon() {

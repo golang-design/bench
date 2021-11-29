@@ -329,7 +329,9 @@ func runBench(args []string) {
 		return
 	}
 
-	fname := "bench-" + time.Now().Format("2006-01-02-15:04:05") + ".txt"
+	// Note that we should avoid using : in filename, because it is not
+	// supported on Windows file systems.
+	fname := "bench-" + time.Now().Format("2006-01-02-15-04-05") + ".txt"
 	err = ioutil.WriteFile(fname, results, 0644)
 	if err != nil {
 		// try again, maybe the user was too fast?
